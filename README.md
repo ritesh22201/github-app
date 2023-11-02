@@ -15,6 +15,24 @@
 - [Author and Contact Information](#author-and-contact-information)
 - [Acknowledgments](#acknowledgments)
 
+
+## Files and Folders to explore
+
+root
+|
+|
+**index.js** - Default route installed with Probot library.
+|
+**main.js** - My main route.
+|
+|
+|                   ___ generateExecutedCode.js
+|                  |
+**code** - My folder
+                   |___ getPullRequestCode.js
+
+Please checkout __main.js__ file, and __code__ folder where I have written all the code.
+
 ## Installation
 
 Installation instructions here.
@@ -51,7 +69,7 @@ Create a .env file in the project root directory with the following content:
 
 Ensure your GitHub App is installed in your GitHub repository.
 
-Create a pull request with the command /execute in the pull request body, comments, or commit messages.
+Create a pull request with the command __/execute__ in the pull request body, comments, or commit messages.
 
 The app will automatically detect the command and execute the code within the pull request.
 
