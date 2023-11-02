@@ -41,10 +41,10 @@ Installation instructions here.
 
 Create a .env file in the project root directory with the following content:
 
-APP_ID=YOUR_GITHUB_APP_ID
-PRIVATE_KEY=YOUR_GITHUB_APP_PRIVATE_KEY
-WEBHOOK_SECRET=YOUR_GITHUB_APP_WEBHOOK_SECRET
-GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+- **APP_ID**=YOUR_GITHUB_APP_ID
+- **PRIVATE_KEY**=YOUR_GITHUB_APP_PRIVATE_KEY
+- **WEBHOOK_SECRET**=YOUR_GITHUB_APP_WEBHOOK_SECRET
+- **GOOGLE_API_KEY**=YOUR_GOOGLE_API_KEY
 
 
 ## Usage
@@ -62,10 +62,10 @@ The code execution output will be posted as a comment in the pull request.
 
 The GitHub Code Execution App integrates with the following external packages:
 
--**Probot**: Used for handling GitHub events and interactions.
--**@google-ai/generativelanguage**: Provides AI-powered code execution capabilities.
--**google-auth-library**: Enables authentication with the Google API.
--**dotenv**: Helps manage environment variables.
+- **Probot**: Used for handling GitHub events and interactions.
+- **@google-ai/generativelanguage**: Provides AI-powered code execution capabilities.
+- **google-auth-library**: Enables authentication with the Google API.
+- **dotenv**: Helps manage environment variables.
 
 ## Known Issues
 
