@@ -19,17 +19,11 @@
 ## Files and Folders to explore
 
 root
-|
-|
-**index.js** - Default route installed with Probot library.
-|
-**main.js** - My main route.
-|
-|
-|                   ___ generateExecutedCode.js
-|                  |
-**code** - My folder
-                   |___ getPullRequestCode.js
+├── index.js - Default route installed with Probot library.
+├── main.js - My main route.
+└── code - My folder
+    ├── generateExecutedCode.js
+    └── getPullRequestCode.js
 
 Please checkout __main.js__ file, and __code__ folder where I have written all the code.
 
